@@ -1,13 +1,67 @@
+/* * { box-sizing: border-box; }
+article p { padding: 2rem; 
+            background-color: orange;
+            margin: 2rem;
+            border: 2px solid black;
+}
+
+h2 {  border-bottom:  2px solid gray; 
+                      padding-bottom: 1rem;
+} */
+
+/* figure {
+  border: 2rem solid pink;
+  padding: 1rem;
+}
+
 header img {
-  width: 33%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin: 2rem 0;
 }
-a {
-  text-decoration: none;
+
+nav {
+  background-color: firebrick;
+  padding: 3rem;
 }
-/* more specific takes precedence*/
-nav a {
-  text-decoration: line-through;
+
+footer {
+  border-top: 5px dotted aqua;
+} */
+
+* { box-sizing: border-box; }
+
+p { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+header img {  max-width: 25%; 
+              float: left;
 }
-/* more recent takes presedence */
-p { color: magenta; }
-p { color: yellow; }
+
+header h1 { max-width: 75%;
+            float: left;
+}
+
+nav { clear: both; }
+
+header li {
+  float: left;
+  list-style: none;
+}
+
+article { clear: both;
+          float: left;
+          width: 80%;
+          background-color: aqua;
+}
+
+aside { float: right; 
+        width: 20%;
+        background-color: pink;
+}
+
+footer {
+  clear: both;
+}
+
